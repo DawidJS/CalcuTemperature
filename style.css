@@ -1,0 +1,28 @@
+input[name="inputTemperature"]:checked,
+input[name="outputTemperature"]:checked    
+    {
+    width: 50px;
+}
+
+body {
+    color: rgba(19, 151, 63, 0.466);
+    background-color: rgb(26, 26, 27);
+    font-weight: bold;
+    font-size: 35px;
+    font-family: "Arial";
+    margin: 10%;
+}
+
+.tempUser{
+    color: red;
+    font-size: 40px;
+    width: 300px;
+    border-radius: 50px;
+    text-align: center;
+    display: block;
+}
+
+.radio-input{
+    height: 25px;
+    width: 25px;
+}
